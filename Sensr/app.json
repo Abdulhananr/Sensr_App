@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Sensr",
+    "slug": "Sensr",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Hk.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Hk.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abdulrah.Sensr"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Hk.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.abdulrah.Sensr",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/Hk.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e4bbe1e7-9df3-42ba-a9b6-5fee7b84b706"
+      }
+    }
+  }
+}
